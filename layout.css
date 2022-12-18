@@ -1,0 +1,404 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:1320px;
+	padding:0 15px;
+	margin:0 auto;
+}
+					/* head style*/
+.header-sect{
+	background-color:#808080;
+	padding: 10px 20px;
+}
+.contact-info{
+	width:40%;
+	background-color:#FF69B4;
+	height:30px;
+}
+.separate-row{
+	display:flex;
+	justify-content:space-between;
+}
+.num-info{
+	width:20%;
+	background-color:#FF69B4;
+}
+				/*nav style*/
+
+.nav-sect{
+	width:100%;
+	background-color:#808080;
+	padding: 20px 20px;
+}				
+.nav-separ{
+	display:flex;
+	justify-content:space-between;
+}
+.res-name{
+	width:25%;
+	background-color:#FF69B4;
+	height:40px;
+}			
+.about-sec{
+	width:50%;
+	background-color:#FF69B4;
+	height:40px;
+}
+.table-book{
+	width:15%;
+	background-color:#FF69B4;
+	height:40px;
+}
+				/*banner style*/
+.banner-sect{
+	background-color:#FF69B4;
+	height:600px;
+	padding:60px 30px;
+}
+.ban-separ{
+	display:flex;
+}
+.banner-image{
+	width:100%;
+	background-color:#808080;
+	height:500px;
+}
+				/*volup style*/
+.volup-sect{
+	background-color:#808080;
+	height:500px;
+	padding:45px;
+}
+.volup-separ{
+	display:flex;
+	justify-content:space-between;
+}
+.volup-para{
+	width:45%;
+	background-color:#FF69B4;
+	height:400px;
+}
+.volup-image{
+	width:45%;
+	background-color:#FF69B4;
+	height:400px;
+}
+		/*why choose style*/
+		
+.choose-sect{
+	background-color:#FF69B4;
+	height:350px;
+	padding:30px 0;
+}
+.choose-separ{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}		
+.head-info{
+	width:100%;
+	background-color:#808080;
+	height:50px;
+}
+.why-choose{
+	width:30%;
+	background-color:#808080;
+	height:200px;
+	margin:40px 0;
+}
+		/*tasty style*/
+		
+.tasty-sect{
+	background-color:#808080;
+	height:700px;
+	padding-top:40px ;
+	
+}
+.tast-head{
+	width:100%;
+	background-color:#FF69B4;
+	height:50px;
+	margin:30px 0;
+}		
+.menu-sect{
+	width:100%;
+	background-color:#FF69B4;
+	height:50px;
+}
+.total-food{
+	width:100%;
+	margin:30px 0;
+	height:450px;
+	background-color:#FF69B4;
+}
+.tasty-separ{
+	display:flex;
+	justify-content:space-evenly;
+}
+			/*special style*/
+.ourspecials-sect{
+	background-color:#FF69B4;
+	height:500px;
+	padding:50px;
+}
+.special-head{
+	background-color:#808080;
+	width:100%;
+	height:50px;
+	margin:30px 0;
+}
+.special-separ{
+	display:flex;
+	justify-content:space-between;
+}
+.special-tabel{
+	background-color:#808080;
+	width:30%;
+	height:300px;
+}
+.special-para{
+	background-color:#808080;
+	width:40%;
+	height:300px;
+}
+.special-image{
+	background-color:#808080;
+	width:20%;
+	height:300px;
+}
+		/*birthday style*/
+		
+.birthday-sect{
+	background-color:#808080;
+	height:550px;
+	padding:50px;
+}
+.party-title{
+	width:100%;
+	background-color:#FF69B4;
+	height:50px;
+}
+.party-image{
+	width:40%;
+	background-color:#FF69B4;
+	height:350px;
+	margin:30px 0;
+}
+.party-para{
+	width:50%;
+	background-color:#FF69B4;
+	height:350px;
+	margin:30px 0;
+}
+.party-separ{
+	display:flex;
+	justify-content:space-between;
+}
+			/*book address style*/
+
+.bookaddress-sect{
+	background-color:#FF69B4;
+	height:500px;
+	padding:30px 0;
+}
+.add-title{
+	background-color:#808080;
+	width:100%;
+	height:50px;
+	margin:30px 0;
+}
+.book-separ{
+	display:flex;
+	justify-content:center;
+}
+.add-tabel{
+	background-color:#808080;
+	width:100%;
+	height:250px;
+	margin:30px 0;
+}
+.add-button{
+	background-color:#808080;
+	width:30%;
+	height:50px;
+}
+			/*member style*/
+.member-sect{
+	background-color:#808080;
+	height:450px;
+	padding:50px 0;
+}			
+.member-title{
+	background-color:#FF69B4;
+	width:100%;
+	height:50px;
+}
+.member-separ{
+	display:flex;
+	justify-content:space-between;
+}
+.saulgoodman-image{
+	background-color:#ff69b4;
+	width:30%;
+	height:250px;
+	margin:30px 0;
+}			
+.john-image{
+   background-color:#ff69b4;
+	width:30%;
+	height:250px;
+	margin:30px 0;
+}	
+.jena-image{	
+	background-color:#ff69b4;
+	width:30%;
+	height:250px;
+	margin:30px 0;
+}	
+		/*gallery style*/
+		
+.gallery-sect{
+	background-color:#ff69b4;
+	height:750px;
+	padding:50px 0;
+}
+.gallery-title{
+	background-color:#696969;
+	width:100%;
+	height:50px;
+	margin:30px 0;
+}
+.images{
+	background-color:#696969;
+	width:25%;
+	height:250px;
+	border:2px solid black;
+}
+.gallery-separ{
+	display:flex;
+	flex-wrap:wrap;
+}
+				/*chefs style*/
+.chefs-sect{
+	background-color:#808080;
+	height:600px;
+	padding:50px;
+}
+.chefs-title{
+	background-color:#ff69b4;
+	width:100%;
+	height:50px;
+}
+.chefs-separ{
+	display:flex;
+	justify-content:space-between;
+}
+.chefs-image{
+	width:30%;
+	background-color:#ff69b4;
+	height:400px;
+	margin:40px 0;
+}
+			/*contact map style*/
+			
+.contact-sect{
+	background-color:#ff69b4;
+	height:600px;
+	padding:50px 0;
+}
+.cotact-title{
+	background-color:#808080;
+	width:100%;
+	height:50px;
+}		
+.map-direction{
+	background-color:#808080;
+	height:400px;
+	margin:40px 0;
+	border:2px solid black;
+}
+			/*hotel details style*/
+			
+.details-sect{
+	background-color:#808080;
+	height:500px;
+}
+.details-separ{
+	display:flex;
+	justify-content:space-between;
+}			
+.location-detail{
+	background-color:#ff69b4;
+	height:400px;
+	width:30%;
+	margin:50px 0;
+}
+.form-detail{
+	background-color:#ff69b4;
+	height:400px;
+	width:60%;
+	margin:50px 0;
+}
+
+			/*other address style*/
+.other-sect{
+	background-color:#ff69b4;
+	height:500px;
+	padding:60px 0;
+}
+.other-separ{
+	display:flex;
+	justify-content:space-between;
+}
+.RESTAURANTLY{
+	background-color:#808080;
+	width:22%;
+	height:370px;
+	margin:0 4px;
+}
+.UsefulLinks{
+	background-color:#808080;
+	width:22%;
+	height:370px;
+	margin:0 4px;
+}
+.OurServices{
+	background-color:#808080;
+	width:22%;
+	height:370px;
+	margin:0 4px;
+}
+.OurNewsletter{
+	background-color:#808080;
+	width:22%;
+	height:370px;
+	margin:0 4px;
+}
+			/*footer style*/
+			
+.footer-sect{
+	background-color:#808080;
+	height:100px;
+	padding:30px 0;
+}
+.footer-separ{
+	display:flex;
+	justify-content:center;
+}
+.foot-info{
+	background-color:#ff69b4;
+	width:30%;
+	height:50px;
+	
+}
+
+
+
+			
+
+
+
+
